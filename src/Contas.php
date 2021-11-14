@@ -17,7 +17,7 @@ abstract class Contas {
 
     public function sacar($valorSaque) {
         if($this->getLimite() < $valorSaque){
-            return "Limite de transferencia excedido!\n";
+            return "Limite de saque excedido!\n";
         }
         if($valorSaque > $this->saldo) {
             return "Saldo insuficiente!\n";

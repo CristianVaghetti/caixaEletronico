@@ -1,24 +1,23 @@
 <?php
 require_once 'src/CaixaEletronico.php';
 require_once __DIR__ . '/vendor/autoload.php';
-//use \backend\src\CaixaEletronico;
 //use Moovin\Job\Backend\CaixaEletronico;
 
-/*$result = new CaixaEletronico;
-echo $result->getSaldo(0);
-echo $result->sacar(0, 100);*/
+/*$operacao1 = new CaixaEletronico;
+echo $operacao1->getSaldo(1);                       //Teste da função de consultar saldo
+echo $operacao1->sacar(1, 599);*/                   //Teste da função de sacar 
 
-/*$result2 = new CaixaEletronico;
-echo $result2->getSaldo(2);
-echo $result2->depositar(2, 100);
-//echo $result2->sacar(2, 100);*/
+/*$operacao2 = new CaixaEletronico;
+echo $operacao2->getSaldo(2);                       
+echo $operacao2->depositar(2, 1000); */             //Teste da função de depositar 
 
-/*$result3 = new CaixaEletronico;
-echo $result3->getSaldo(0);
-echo $result3->getSaldo(1);
-echo $result3->transferir(1, 0, 500);
-echo $result3->getSaldo(0);
-echo $result3->getSaldo(1);*/
+
+$operacao3 = new CaixaEletronico;
+echo $operacao3->getSaldo(0);
+echo $operacao3->getSaldo(1);
+echo $operacao3->transferir(1, 0, 6000);            //Teste da função de transferir
+echo $operacao3->getSaldo(0);
+echo $operacao3->getSaldo(1);
 
 
 
