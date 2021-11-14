@@ -11,7 +11,4 @@ class ContaCorrente extends Contas {
     public function getLimite(){
         return 600;
     }
-    public function getNome(){
-        return $this->nome;
-    }
 }

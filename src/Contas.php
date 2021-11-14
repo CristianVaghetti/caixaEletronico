@@ -42,7 +42,10 @@ abstract class Contas {
 
     }
 
+    public function getNome(){
+        return $this->nome;
+    }
+
     abstract public function getTaxa();
     abstract public function getLimite();
-    abstract public function getNome();
 }
