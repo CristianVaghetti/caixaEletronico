@@ -14,7 +14,7 @@ echo $operacao2->depositar(2, 1000);              //Teste da função de deposit
 // $operacao3 = new CaixaEletronico;
 // echo $operacao3->getSaldo(0);
 // echo $operacao3->getSaldo(1);
-// echo $operacao3->transferir(1, 0, 6000);            //Teste da função de transferir
+// echo $operacao3->transferir(1, 0, 6000);            //Teste da função de transferir.
 // echo $operacao3->getSaldo(0);
 // echo $operacao3->getSaldo(1);
 

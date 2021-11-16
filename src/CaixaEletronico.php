@@ -13,7 +13,7 @@ class CaixaEletronico {
             new ContaCorrente('Enzo', 5000), 
             new ContaCorrente('João', 2500), 
             new ContaPoupanca('Maria', 3000)
-            //os ID das contas eu utilizei como o prórprio índice do array
+            //os ID das contas eu utilizei como o prórprio índice do array.
     ];
     }
     

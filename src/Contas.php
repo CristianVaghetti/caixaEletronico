@@ -39,7 +39,6 @@ abstract class Contas {
         $this->saldo -= $valorTransferido;
         $contaDestino->saldo += $valorTransferido;
         return "Transferencia concluída!\nNovo Saldo: ".$this->saldo."\n";
-
     }
 
     public function getNome(){
