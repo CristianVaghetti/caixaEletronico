@@ -40,6 +40,7 @@ Você precisa desenvolver um algoritmo para um caixa eletrônico, seguindo os re
 - A operação de Transferência remove saldo da conta e adiciona o mesmo valor em uma outra conta;
 - A operação de Transferência deve receber uma conta de destino e o valor a ser transferido, validando se a conta possui saldo para transferência;
 - O Caixa Eletrônico deve receber uma Conta de qualquer tipo para iniciar qualquer tipo de transação;
+- Isso
 
 > **ATENÇÃO**: Não é necessário realizar interação com banco de dados ou qualquer tipo interface de entrada de informações (input).
 
