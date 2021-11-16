@@ -11,5 +11,8 @@ class ContaPoupanca extends Contas {
     public function getLimite(){
         return 1000;
     }
+<<<<<<< HEAD
      
+=======
+>>>>>>> fbf0d95ec8fc90beb873334cc1f15b2b4b292a20
 }
